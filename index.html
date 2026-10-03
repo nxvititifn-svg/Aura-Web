@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="თანამედროვე, სწრაფი და ადაპტური Landing Page 4 სექციით: Hero, About, Features და Contact.">
+  <title>თანამედროვე Landing Page</title>
+  
+  <!-- Google Fonts: Noto Sans Georgian & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ნავიგაცია -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">✦</span>
+        <span>Aura</span>Web
+      </a>
+      
+      <button class="mobile-toggle" id="mobileToggle" aria-label="მენიუს გახსნა">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">მთავარი</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">ჩვენ შესახებ</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">სერვისები</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">კონტაქტი</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta">დაგვიკავშირდით</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Hero სექცია -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            ინოვაციური ციფრული გადაწყვეტილებები
+          </div>
+          <h1 class="hero-title">
+            შექმენით თქვენი ციფრული მომავალი <span class="gradient-text">ჩვენთან ერთად</span>
+          </h1>
+          <p class="hero-subtitle">
+            თანამედროვე, სრულად რესპონსიული და მაღალი წარმადობის ვებ-პლატფორმები, რომლებიც ეხმარება თქვენს ბიზნესს ახალ საფეხურზე ასვლაში.
+          </p>
+          <div class="hero-actions">
+            <a href="#features" class="btn btn-primary">დაიწყე ახლავე</a>
+            <a href="#about" class="btn btn-secondary">გაიგე მეტი</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="glass-card main-visual-card">
+            <div class="visual-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="visual-title">aurasoft.dev/platform</span>
+            </div>
+            <div class="visual-body">
+              <div class="stat-box">
+                <span class="stat-number">99.9%</span>
+                <span class="stat-label">მუშაობის უწყვეტობა</span>
+              </div>
+              <div class="code-preview">
+                <div class="code-line"><span class="c-purple">const</span> platform = <span class="c-blue">new</span> <span class="c-yellow">FastModernApp</span>();</div>
+                <div class="code-line">platform.<span class="c-blue">deploy</span>({ <span class="c-green">responsive: true</span> });</div>
+                <div class="code-line"><span class="c-gray">// წარმატებით გაეშვა ⚡</span></div>
+              </div>
+              <div class="metric-tags">
+                <span class="tag">⚡ ულტრა სწრაფი</span>
+                <span class="tag">📱 Mobile-First</span>
+                <span class="tag">🔒 დაცული</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About სექცია -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">ინფორმაცია</span>
+          <h2 class="section-title">ჩვენს შესახებ</h2>
+          <div class="title-underline"></div>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-text-content">
+            <h3 class="about-heading">ვქმნით პროდუქტებს, რომლებიც რეალურ შედეგს მოგიტანთ</h3>
+            <p class="about-desc">
+              ჩვენ ვართ ტექნოლოგიური ენთუზიასტების გუნდი, რომელიც სპეციალიზდება უახლესი სტანდარტების შესაბამისი ვებ-გადაწყვეტილებების შემუშავებაზე.
+            </p>
+            <p class="about-desc">
+              თითოეული პროექტის შექმნისას განსაკუთრებულ ყურადღებას ვუთმობთ სისწრაფეს, მოხერხებულ მომხმარებლის ინტერფეისს (UI/UX) და სრულ მობილურ ადაპტაციას, რათა თქვენმა მომხმარებელმა მიიღოს საუკეთესო გამოცდილება ნებისმიერ მოწყობილობაზე.
+            </p>
+            
+            <div class="stats-row">
+              <div class="stat-item">
+                <span class="stat-val">100+</span>
+                <span class="stat-desc">შესრულებული პროექტი</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-val">99%</span>
+                <span class="stat-desc">კმაყოფილი კლიენტი</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-val">24/7</span>
+                <span class="stat-desc">ტექნიკური მხარდაჭერა</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-highlight-box">
+            <div class="quote-card">
+              <div class="quote-icon">❝</div>
+              <p class="quote-text">
+                ხარისხი შემთხვევით არ იქმნება — ეს არის მიზანმიმართული შრომის, დეტალებზე ორიენტირებულობისა და ინოვაციის შედეგი.
+              </p>
+              <div class="quote-author">
+                <div class="author-avatar">✦</div>
+                <div>
+                  <strong>AuraWeb გუნდი</strong>
+                  <span>ციფრული სტუდია</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Features სექცია (3 Flexbox ბარათი) -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">შესაძლებლობები</span>
+          <h2 class="section-title">რატომ უნდა აგვირჩიოთ ჩვენ?</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">
+            მიიღეთ საუკეთესო ფუნქციონალი თქვენი ვებ-აპლიკაციისთვის
+          </p>
+        </div>
+
+        <!-- 3 Flexbox ბარათის კონტეინერი -->
+        <div class="features-flex-container">
+          <!-- ბარათი 1 -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <span class="feature-icon">⚡</span>
+            </div>
+            <h3 class="feature-title">სწრაფი და ოპტიმიზებული</h3>
+            <p class="feature-text">
+              სუფთა და ოპტიმიზებული კოდი უზრუნველყოფს გვერდის მომენტალურ ჩატვირთვას და იდეალურ შესრულებას Core Web Vitals-ის მიხედვით.
+            </p>
+            <ul class="feature-list">
+              <li>სუფთა Vanilla JS და CSS</li>
+              <li>მინიმალური ჩატვირთვის დრო</li>
+              <li>SEO მეგობრული სტრუქტურა</li>
+            </ul>
+          </div>
+
+          <!-- ბარათი 2 -->
+          <div class="feature-card active-feature">
+            <div class="card-badge">პოპულარული</div>
+            <div class="feature-icon-wrapper">
+              <span class="feature-icon">📱</span>
+            </div>
+            <h3 class="feature-title">რესპონსიული დიზაინი</h3>
+            <p class="feature-text">
+              მოქნილი Flexbox განლაგება უზრუნველყოფს იდეალურ ვიზუალს ყველა ზომის ეკრანზე: სმარტფონებზე, ტაბლეტებსა და კომპიუტერებზე.
+            </p>
+            <ul class="feature-list">
+              <li>Mobile-first მიდგომა</li>
+              <li>მოქნილი ბადე და Flexbox</li>
+              <li>ადაპტირებადი ელემენტები</li>
+            </ul>
+          </div>
+
+          <!-- ბარათი 3 -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <span class="feature-icon">🔒</span>
+            </div>
+            <h3 class="feature-title">უსაფრთხო და საიმედო</h3>
+            <p class="feature-text">
+              თანამედროვე უსაფრთხოების სტანდარტები, მონაცემთა დაცვა და უწყვეტი სტაბილურობა თქვენი პროექტის წარმატებისთვის.
+            </p>
+            <ul class="feature-list">
+              <li>ვალიდირებული ფორმები</li>
+              <li>დაცული არქიტექტურა</li>
+              <li>მუდმივი განახლებები</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Contact სექცია (საკონტაქტო ფორმა) -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">კავშირი</span>
+          <h2 class="section-title">დაგვიკავშირდით</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">
+            გაქვთ იდეა ან პროექტი? გამოგვიგზავნეთ შეტყობინება და ჩვენ დაგიკავშირდებით.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-card">
+            <h3>მოდით ვისაუბროთ</h3>
+            <p>მზად ვართ დაგეხმაროთ თქვენი მიზნების მიღწევაში. შეავსეთ ფორმა ან გამოიყენეთ ქვემოთ მითითებული რეკვიზიტები.</p>
+            
+            <div class="contact-detail-items">
+              <div class="contact-item">
+                <span class="c-icon">📍</span>
+                <div>
+                  <strong>მისამართი</strong>
+                  <p>თბილისი, რუსთაველის გამზირი #12</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="c-icon">✉️</span>
+                <div>
+                  <strong>ელ. ფოსტა</strong>
+                  <p>contact@aurasoft.ge</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="c-icon">📞</span>
+                <div>
+                  <strong>ტელეფონი</strong>
+                  <p>+995 (32) 200-00-00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">სრული სახელი <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="მაგ. გიორგი ბერიძე" required>
+              <span class="error-msg" id="nameError">გთხოვთ მიუთითოთ თქვენი სახელი</span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">ელ-ფოსტა <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+              <span class="error-msg" id="emailError">გთხოვთ მიუთითოთ ვალიდური ელ. ფოსტა</span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">შეტყობინება <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="4" placeholder="დაწერეთ თქვენი შეტყობინება..." required></textarea>
+              <span class="error-msg" id="messageError">გთხოვთ ჩაწეროთ თქვენი შეტყობინება (მინიმუმ 10 სიმბოლო)</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+              <span class="btn-text">შეტყობინების გაგზავნა</span>
+              <span class="btn-loader" style="display: none;"></span>
+            </button>
+
+            <!-- წარმატების/შეცდომის შეტყობინების ბლოკი -->
+            <div class="form-feedback" id="formFeedback" role="alert"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <span>Aura</span>Web
+      </div>
+      <p class="footer-copy">© 2026 AuraWeb. ყველა უფლება დაცულია.</p>
+      <div class="footer-links">
+        <a href="#hero">მთავარი</a>
+        <a href="#about">ჩვენ შესახებ</a>
+        <a href="#features">სერვისები</a>
+        <a href="#contact">კონტაქტი</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
